@@ -1,0 +1,24 @@
+main {
+    margin-left: 100px;
+    width: 500px;
+    height: 750px;
+    background-color: rgb(18, 112, 200);
+}
+
+h3 {
+    display: flex;
+    font-size: bold;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#ecran {
+    background-color: rgb(140, 152, 165);
+    height: 120px;
+    margin: 0 20px 0 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
