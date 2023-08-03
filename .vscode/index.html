@@ -11,6 +11,7 @@
         <div>
             <h3>CASIO</h3>
             <div id="ecran">
+                <input type="text" id="result" readonly>
             </div>
             <div id="haut">
             <h2 id="titre2">Petite fx</h2>
@@ -19,32 +20,33 @@
             </div>
         </div>
         <div class="touchb">
-            <button class="touchBasse">MC</button>
-            <button class="touchBasse">MR</button>
-            <button class="touchBasse">M-</button>
-            <button class="touchBasse">M+</button>
-            <button class="touchBasse" style="font-size: 19px;">&divide</button>
-            <button class="touchBasse">%</button>
-            <button class="touchBasse">7</button>
-            <button class="touchBasse">8</button>
-            <button class="touchBasse">9</button>
-            <button class="touchBasse">X</button>
-            <button class="touchBasse">&plusmn</button>
-            <button class="touchBasse">4</button>
-            <button class="touchBasse">5</button>
-            <button class="touchBasse">6</button>
-            <button class="touchBasse">-</button>
-            <button class="touchBasse" style="background-color: red;">C</button>
-            <button class="touchBasse">1</button>
-            <button class="touchBasse">2</button>
-            <button class="touchBasse">3</button>
-            <button class="touchBasse">+</button>
-            <button class="touchBasse" style="background-color: red;">AC</button>
-            <button class="touchBasse">0</button>
-            <button class="touchBasse">.</button>
-            <button class="touchBasse">=</button>
+            <button class="touchBasse" id="mc">MC</button>
+            <button class="touchBasse" id="mr">MR</button>
+            <button class="touchBasse" id="m-">M-</button>
+            <button class="touchBasse" id="m+">M+</button>
+            <button class="touchBasse" id="/">/</button>
+            <button class="touchBasse" id="%">%</button>
+            <button class="touchBasse" id="7" value="7">7</button>
+            <button class="touchBasse" id="8" value="8">8</button>
+            <button class="touchBasse" id="9" value="9">9</button>
+            <button class="touchBasse" id="x" value="*">*</button>
+            <button class="touchBasse" id="+/-">&plusmn</button>
+            <button class="touchBasse" id="4" value="4">4</button>
+            <button class="touchBasse" id="5" value="5">5</button>
+            <button class="touchBasse" id="6" value="6">6</button>
+            <button class="touchBasse" id="-" value="-">-</button>
+            <button class="touchBasse" id="c" style="background-color: red;">C</button>
+            <button class="touchBasse" id="1" value="1">1</button>
+            <button class="touchBasse" id="2" value="2">2</button>
+            <button class="touchBasse" id="3" value="3">3</button>
+            <button class="touchBasse" id="+" value="+">+</button>
+            <button class="touchBasse" id="ac" style="background-color: red;">AC</button>
+            <button class="touchBasse" id="0" value="0">0</button>
+            <button class="touchBasse" id="." value=".">.</button>
+            <button class="touchBasse" id="=" value="=">=</button>
         </div>
         <p class="sign">LC-401LV</p>
+        <script src="script.js"></script>
     </main>
 </body>
 </html>
